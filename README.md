@@ -2,14 +2,14 @@
 
 <h2>Calculadora de IMC em java com interface gráfica</h2>
 <br><br>
-<img src="imgs/lmc1.PNG">
+<img src="imgs/imc1.PNG">
 <br><br>
-<img src="imgs/lmc2.PNG">
+<img src="imgs/imc2.PNG">
 <br><br>
-<img src="imgs/lmc3.PNG">
+<img src="imgs/imc3.PNG">
 <br><br>
-<img src="imgs/lmc4.PNG">
+<img src="imgs/imc4.PNG">
 <br><br>
-<img src="imgs/lmc5.PNG">
+<img src="imgs/imc5.PNG">
 <br><br>
 
