@@ -1,6 +1,6 @@
 # Calculadora de IMC ( Índice de massa corporal )
 
-<h2>Calculadora de IMC em java com interface gráfica</h2>
+<h2>Calculadora de IMC ( Índice de massa corporal ) em java com interface gráfica</h2>
 <br><br>
 <img src="imgs/imc1.PNG">
 <br><br>
