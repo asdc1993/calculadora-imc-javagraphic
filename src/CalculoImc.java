@@ -15,6 +15,9 @@ import javax.swing.SwingConstants;
 import java.awt.Toolkit;
 
 public class CalculoImc extends JFrame {
+		/**
+	 * Teste Github Actions.
+	 */
 
 	private JPanel contentPane;
 	private JTextField txtPeso;
@@ -103,7 +106,7 @@ public class CalculoImc extends JFrame {
 		contentPane.add(txtImc);
 		txtImc.setColumns(10);
 	}
-	//método para calcular o IMC 
+	//mÃ©todo para calcular o IMC 
 	private void calcular() {
 		DecimalFormat formatador = new DecimalFormat("0.00"); 
 		double peso, altura, imc;
@@ -122,7 +125,7 @@ public class CalculoImc extends JFrame {
 		}
 	}
 	
-		//método para limpar campos
+		//mÃ©todo para limpar campos
 		private void limpar() {
 			txtPeso.setText(null);
 			txtAltura.setText(null);
