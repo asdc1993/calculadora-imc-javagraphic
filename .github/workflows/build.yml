@@ -20,7 +20,7 @@ jobs:
 
     - name: Compilar e Executar Testes
       run: |
-        javac -d bin src/*.java  # Compila todos os arquivos na pasta src
-        java -cp bin CalculoImc  # Executa a classe principal
+        javac -d bin src/*.java  
+        java -cp bin CalculoImc 
 
 
