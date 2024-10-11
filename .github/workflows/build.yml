@@ -18,8 +18,10 @@ jobs:
       with:
         java-version: '11'
 
-    - name: Compilar e Executar Testes
+    - name: Compilar e Executar
       run: |
-        javac -d bin src/*.java  # Compila todos os arquivos na pasta src
+        mkdir -p bin  # Cria o diretório bin se não existir
+        javac -d bin src/*.java  # Compila todos os arquivos Java
         java -cp bin CalculoImc  # Executa a classe principal
+
 
