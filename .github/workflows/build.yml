@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -18,6 +18,9 @@ jobs:
       with:
         java-version: '11'
 
-
+    - name: Compilar e Executar Testes
+      run: |
+        javac -d bin src/*.java  # Compila todos os arquivos na pasta src
+        java -cp bin CalculoImc  # Executa a classe principal
 
 
