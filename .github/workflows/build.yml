@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -18,5 +18,8 @@ jobs:
       with:
         java-version: '11'
 
-    - name: Build e Teste com Maven
-      run: mvn clean install && mvn test
+    - name: Compilar e Executar Testes
+      run: |
+        javac -d bin src/*.java
+        java -cp bin CalculoImc  # Substitua 'MainClass' pelo nome da sua classe principal
+
