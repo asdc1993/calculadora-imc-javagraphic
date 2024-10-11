@@ -21,5 +21,5 @@ jobs:
     - name: Compilar e Executar Testes
       run: |
         javac -d bin src/Calculolmc.java
-        java -cp bin CalculoImc  # Substitua 'MainClass' pelo nome da sua classe principal
+        java -cp bin CalculoImc  
 
